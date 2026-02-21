@@ -1,15 +1,11 @@
 Employee Management System
-
 Spring Boot + RabbitMQ + Docker + MySQL
-
-Project Overview
+Project overview
 
 This project is a Spring Boot based Employee Management System that supports:
 
 Employee Management
-
 Department Management
-
 Leave Management
 
 Notification System using RabbitMQ
