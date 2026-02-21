@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@oracle-db:1521/XEPDB1
+
+    username: system
+    password: oracle123
+    driver-class-name: oracle.jdbc.OracleDriver
+
+  security:
+    user:
+      name: localuser
+      password: Khansaar123
+
+  jpa:
+    database-platform: org.hibernate.dialect.OracleDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+    username: guest
+    password: guest
+
+  data:
+    web:
+      pageable:
+        serialization-mode: via-dto
+
+server:
+  port: 9908
